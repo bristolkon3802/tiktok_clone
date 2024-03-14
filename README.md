@@ -5,11 +5,14 @@
 ### 프로젝트 설치
 
 - flutter create tiktok_clone
+- https://nomadcoders.co/downloads/tiktok.zip
 
 ### 설치 파일 및 버전
 
     - Flutter 3.16.9    /   3.3.10
     - Dart 3.2.6        /   2.18.6
+    - dependencies:
+        font_awesome_flutter: 10.3.0     /   폰트 아이콘
 
 ### 파일 설명
 
