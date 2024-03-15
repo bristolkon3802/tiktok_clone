@@ -22,3 +22,38 @@
 ### 문법 설명
 
 - SizedBox > 기본적으로 고정된 크기를 갖는 Container
+
+### 필드 설명
+
+    TextField(
+        decoration: InputDecoration(
+        hintText: "Username",
+        enabledBorder: UnderlineInputBorder(
+            borderSide: BorderSide(color: Colors.grey.shade400),
+        ),
+        focusedBorder: UnderlineInputBorder(
+            borderSide: BorderSide(color: Colors.grey.shade400),
+        ),
+        ),
+        cursorColor: Theme.of(context).primaryColor,
+    ),
+
+### 버튼 모음
+
+    FractionallySizedBox(
+        widthFactor: 1,
+        child: Container(
+        padding: const EdgeInsets.symmetric(vertical: Sizes.size16),
+        decoration: BoxDecoration(
+            color: Theme.of(context).primaryColor,
+        ),
+        child: const Text(
+            "Next",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.w600,
+            ),
+        ),
+        ),
+    )
