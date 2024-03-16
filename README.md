@@ -62,3 +62,10 @@
         ),
         ),
     )
+
+### 위젯 모음
+
+    - 하단에 고정
+    bottomNavigationBar: BottomAppBar(
+      child: ,
+    ),
