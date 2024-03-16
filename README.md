@@ -22,8 +22,13 @@
 ### 문법 설명
 
 - SizedBox > 기본적으로 고정된 크기를 갖는 Container
+- AnimatedContainer > 애니메이션을 만들 수 있음
 
 ### 필드 설명
+
+    Navigator.of(context).push(MaterialPageRoute(
+        builder: (context) => (),
+    ));
 
     TextField(
         decoration: InputDecoration(
