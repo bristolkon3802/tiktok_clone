@@ -19,10 +19,16 @@
 - sizes
 - gaps > 너비나 높이를 가지는 SizedBox
 
-### 문법 설명
+### 위젯 설명
 
+- CupertinoDatePicker() > (iOS 스타일) 위젯 라이브러리에 속하는 날짜 및 시간 선택기
+- TextEditingController() > 텍스트 필드의 현재 값을 읽거나, 텍스트 필드에 초기값을 설정하거나, 텍스트 필드의 값을 변경하는 등의 작업
+- bottomNavigationBar() > 화면 하단에 고정
 - SizedBox > 기본적으로 고정된 크기를 갖는 Container
 - AnimatedContainer > 애니메이션을 만들 수 있음
+- TextField > 입력 창을 주는 위젯
+- Form > 모든 입을 한번에 검증해 줌
+- TextFormFilId
 
 ### 필드 설명
 
@@ -63,7 +69,7 @@
         ),
     )
 
-### 위젯 모음
+### 위젯 사용 방법
 
     - 하단에 고정
     bottomNavigationBar: BottomAppBar(
